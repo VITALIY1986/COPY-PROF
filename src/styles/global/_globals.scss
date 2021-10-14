@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span.main-title-inner{
+    position: relative;
+    display: inline-block;
+    padding: 7px 0;
+}
+.main-title-inner::before {
+    content: '';
+    display: block;
+    background: rgb(255, 201, 255);
+    width: 95px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+  }
+  .main-title-inner::after {
+    content: '';
+    display: block;
+    background: rgb(255, 201, 255);
+    width: 95px;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .slidervh{
+     @apply  h-slidersm lg:h-sliderlg;
+  }
+ 
+
+
+
+
+
+
+
+
+
+  
